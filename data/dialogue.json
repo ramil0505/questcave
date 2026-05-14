@@ -1,0 +1,16 @@
+{
+  "guardian_intro": [
+    "Welcome, traveller. I am the Cave Guardian.",
+    "Beneath this hall lie the lost scrolls of Requirements Engineering.",
+    "Each scroll holds a lesson, sealed behind a challenge.",
+    "Solve the challenges, descend deeper, and master the craft."
+  ],
+  "guardian_returning": [
+    "Back so soon, young analyst? Good.",
+    "Another scroll awaits."
+  ],
+  "guardian_exhausted": [
+    "You have completed every scroll I have prepared.",
+    "Return another day — more arrive from the surface each week."
+  ]
+}

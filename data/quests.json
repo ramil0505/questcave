@@ -1,0 +1,116 @@
+[
+  {
+    "quest_id": "Q001_req_types",
+    "title": "Recognise the Types of Requirements",
+    "re_topic": "Functional vs Non-functional",
+    "description": "An ancient scroll lists requirements scrambled with their categories. Match each requirement to the correct type to restore the scroll.",
+    "challenge_type": "card_matching",
+    "challenge_data": {
+      "title": "Match the requirement type",
+      "prompt": "Drag each requirement onto the correct category.",
+      "pairs": [
+        {
+          "requirement": "The system shall respond to user input within 2 seconds.",
+          "solution": "Performance (non-functional)",
+          "explanation": "Response time is a quality attribute, not a behaviour."
+        },
+        {
+          "requirement": "Users shall be able to register with email and password.",
+          "solution": "Functional",
+          "explanation": "Describes a specific capability the system must provide."
+        },
+        {
+          "requirement": "All stored user data shall be encrypted using AES-256.",
+          "solution": "Security (non-functional)",
+          "explanation": "A constraint on how data is handled, not a behaviour."
+        },
+        {
+          "requirement": "The interface shall be available in English and Latvian.",
+          "solution": "Usability (non-functional)",
+          "explanation": "Localisation is a quality concern affecting accessibility."
+        }
+      ]
+    },
+    "reward": {
+      "xp": 80,
+      "gems": 10,
+      "badge_id": "BADGE_REQ_TYPES"
+    }
+  },
+  {
+    "quest_id": "Q002_stakeholders",
+    "title": "Identify the Stakeholders",
+    "re_topic": "Stakeholder identification",
+    "description": "A village is split by who needs what. Match each viewpoint to the right stakeholder.",
+    "challenge_type": "card_matching",
+    "challenge_data": {
+      "title": "Match the stakeholder concern",
+      "prompt": "Drag each concern onto the stakeholder it belongs to.",
+      "pairs": [
+        {
+          "requirement": "Cares mainly about return on investment and total cost.",
+          "solution": "Business Sponsor",
+          "explanation": "Funding decision-makers focus on value and budget."
+        },
+        {
+          "requirement": "Wants the daily task to be fast and not error-prone.",
+          "solution": "End User",
+          "explanation": "End users live with the friction of the system every day."
+        },
+        {
+          "requirement": "Worries about audit logs, data retention and GDPR.",
+          "solution": "Compliance Officer",
+          "explanation": "Regulatory roles enforce legal and policy constraints."
+        },
+        {
+          "requirement": "Needs the system to integrate cleanly with the existing CRM.",
+          "solution": "IT Operations",
+          "explanation": "Ops cares about deployment, maintenance and integration."
+        }
+      ]
+    },
+    "reward": {
+      "xp": 90,
+      "gems": 12,
+      "badge_id": "BADGE_STAKEHOLDERS"
+    }
+  },
+  {
+    "quest_id": "Q003_moscow",
+    "title": "Prioritise the Backlog",
+    "re_topic": "MoSCoW prioritisation",
+    "description": "The Cave Council needs to ship in three months. Help them sort which requirements are Must, Should, Could, or Won't.",
+    "challenge_type": "card_matching",
+    "challenge_data": {
+      "title": "MoSCoW prioritisation",
+      "prompt": "Drag each requirement onto its priority class.",
+      "pairs": [
+        {
+          "requirement": "Users must be able to recover a forgotten password.",
+          "solution": "Must have",
+          "explanation": "Without account recovery the product is unusable."
+        },
+        {
+          "requirement": "The app should send a daily reminder push notification.",
+          "solution": "Should have",
+          "explanation": "Important for engagement but the product still works without it."
+        },
+        {
+          "requirement": "Users could customise the colour theme of the UI.",
+          "solution": "Could have",
+          "explanation": "Nice to have, adds polish, low priority for launch."
+        },
+        {
+          "requirement": "The system will integrate with a VR headset.",
+          "solution": "Won't have (this time)",
+          "explanation": "Explicitly out of scope for this release."
+        }
+      ]
+    },
+    "reward": {
+      "xp": 100,
+      "gems": 15,
+      "badge_id": "BADGE_MOSCOW"
+    }
+  }
+]
